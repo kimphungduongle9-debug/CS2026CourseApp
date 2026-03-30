@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'courses.apps.CoursesConfig',
     'ckeditor',
-    'ckeditor_uploader'
+    'ckeditor_uploader',
     'debug_toolbar'
 ]
 CKEDITOR_UPLOAD_PATH = "ckeditor/images/"
@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'coursesdb',
         'USER': 'root',
-        'PASSWORD': '123456789',
+        'PASSWORD': 'root',
         'HOST': 'localhost',
         'PORT': '3306',
     }
